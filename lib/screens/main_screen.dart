@@ -1,5 +1,5 @@
-import 'package:doctor_application/screens/Home.dart';
-import 'package:doctor_application/screens/Schedule_screen.dart';
+import 'package:doctor_application/screens/home.dart';
+import 'package:doctor_application/screens/schedule_screen.dart';
 import 'package:flutter/material.dart';
 
 class MainScreen extends StatefulWidget {

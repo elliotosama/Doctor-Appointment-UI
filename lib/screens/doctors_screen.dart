@@ -1,4 +1,4 @@
-import 'package:doctor_application/screens/Appointment_screen.dart';
+import 'package:doctor_application/screens/appointment_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

@@ -1,6 +1,4 @@
-import 'package:doctor_application/screens/Canceled_schedule.dart';
-import 'package:doctor_application/screens/Completed_schedule.dart';
-import 'package:doctor_application/screens/Upcoming_schedule.dart';
+import 'package:doctor_application/screens/upcoming_schedule.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -16,8 +14,6 @@ class _ScheduleScreenState extends State<ScheduleScreen> {
 
   final _Schedulewidgets = [
     UpcomingSchedule(),
-    CompletedSchedule(),
-    CanceledSchedule(),
   ];
   @override
   Widget build(BuildContext context) {
@@ -129,7 +125,7 @@ class _ScheduleScreenState extends State<ScheduleScreen> {
                 ),
               ),
               SizedBox(height: 30),
-              _Schedulewidgets[_buttonIndex]
+              UpcomingSchedule()
             ],
           ),
         ),
